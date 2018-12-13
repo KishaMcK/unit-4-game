@@ -1,0 +1,106 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <!-- Bootstrap CSS -->
+
+  <link rel="stylesheet" type="text/css" href="assets\css\style.css">
+  <style>
+        @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+  </style>
+
+<!-- heading Title -->
+  <title>Crystals Collector</title>
+</head>
+
+<body>
+
+<!--  container for table of heading & Rule box -->
+  <div class="container"></div>
+  <h4 id="heading" class="title">CrystalsCollector-Games</h4>
+
+  <div id="rules">
+<p>You will be given a random number at the start of the game.<br><br>
+There are four crystals below. By clicking on a crystal you will add a random amout of points to your
+total score.<br><br> You win the game by matching your total score to the random number provided<br><br>The 
+value of each crystal is hidden until you click on it.<br><br>Each time when the game starts, the game will 
+change the values of each crystal.</p>
+  
+</div>
+<!--  create box for result score + winner + looses -->
+
+  <div class="row">
+    <div id="result">
+      Target
+    </div>
+    <!-- winnr box-->
+    <div id="win">
+      Wins <div id="wins"></div>
+    </div>
+     <!--looses box-->
+    <div id="looses">
+      losses <div id="losses"></div>
+    </div>
+  </div>
+
+<!--  place for 4 crystals  -->
+
+  <div class="row" id="crystal-row">
+    <div class="crystals">
+      <div class="crystals-button" >
+        <img class="crystal-image " id="crystal1" src="assets\images\red.png" style="width:40%" height="75px">
+      </div>
+    </div>
+
+    <div class="crystals">
+      <div class="crystals-button" >
+        <img class="crystal-image" id="crystal2" src="assets\images\blue.png" style="width:40%" height="75px">
+      </div>
+    </div>
+
+    <div class="crystals">
+      <div class="crystals-button" >
+        <img class="crystal-image" id="crystal3" src="assets\images\yellow.png" style="width:40%" height="75px">
+      </div>
+    </div>
+
+    <div class="crystals">
+      <div class="crystals-button" >
+        <img class="crystal-image" id="crystal4" src="assets\images\green.png" style="width:40%" height="75px">
+      </div>
+    </div>
+  </div>
+
+<!--  box for Random scores -->
+  <div>
+    <!-- Crystals -->
+    <div id="score-result">Your total score is:</div>
+    <!-- Score Display -->
+    <div id="final-score"></div>
+  </div>
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>
